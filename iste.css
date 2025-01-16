@@ -1,0 +1,211 @@
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(230, 92, 82);
+}
+
+header img{
+    width: 30px;
+    border-radius: 2px;
+   padding-right:5px;
+   padding-left:10px;
+}
+header ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+
+}
+header li{
+    padding-top:15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+a:link,a:visited{
+    text-decoration: none;
+    display: inline;
+    margin:10px;
+    margin-bottom: 5px;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: weight 430px;
+}
+a:hover{
+    color: rgb(193, 254, 108);
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.para{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/Events/img25/janART25/H1/JanART-25-PC_Hero_NTA_Main_2X._CB552659620_.jpg);
+    width: 100%;
+    height:300px;
+    color:rgb(139, 210, 239);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    display:block;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-size: 1600px 700px;
+    text-transform: uppercase;
+}
+.pa h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 1.5rem;
+}
+.para2{
+    display:flex;
+    align-items:stretch;
+    margin-left:150px;
+    margin-right: 150px;
+    padding:5px; 
+    overflow-x: auto;
+    gap:15px;
+    scroll-behavior: smooth;
+    
+}
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .btn-left {
+    left: -20px;
+  }
+
+  .btn-right {
+    right: -20px;
+  }
+.para2::-webkit-scrollbar{
+    height:8px;
+}
+main img{
+    width: 150px;
+    padding:10px;
+    display:block;
+    height:200px;
+}
+.para3{
+    padding:5px;
+    border:none;
+    box-shadow: 3px 3px 7px gray;
+    border-radius: 4px;
+    margin:10px;
+    background-color: white;
+    width:200px;
+
+}
+p,h3{
+    text-align: center;
+    font-size: 0.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 400;}
+h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+button{
+    display:block;
+    margin:auto;
+    text-align: center;
+    background-color: rgb(173, 239, 41);
+    color: white;
+    border-radius: 2px;
+    font-size: 0.6rem;
+    padding:3px;
+    border:none;
+    cursor: pointer;
+    margin-top:5px;
+    padding-left:4px;
+    padding-right:4px;
+    
+}
+h2{
+    font-size: 2.7rem;
+    text-transform:uppercase;
+}
+.y{
+    display: flex;
+    justify-content: space-evenly;
+    height:100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 500;
+    align-items: center;
+    color: rgb(171, 254, 254);
+}
+.y a:link{
+    margin:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+body{
+    background-color: rgb(227, 241, 212);
+}
+.x{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.x ul{
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+}
+.x img{
+    width: 25px;
+    border-radius: 2px;
+   padding-left:2px;
+}
+.x li{
+    padding-top:15px;
+    padding-bottom: 5px;
+    margin-bottom: 70px;
+    
+}
+footer{
+    background-color: rgba(36, 33, 43, 0.914);
+    height: 300px;
+}
+.x2{
+    padding-left:10px;
+}
+
+.y1 ul{
+    padding-top: 10px;
+    display:block;
+    list-style-type: none;
+
+}
+.y1 li{
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight:100;
+}
+.y1 li a{
+    font-weight: 200;
+    color: rgb(204, 204, 230);
+}
+.y1 li a:hover{
+    color: rgb(230, 237, 191);
+}
+.z{
+    margin-top:50px;
+    margin-left:700px;
+    font-size: 1.5rem;
+    color: white;
+}
